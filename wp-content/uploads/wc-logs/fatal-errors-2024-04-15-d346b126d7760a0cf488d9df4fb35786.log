@@ -1,0 +1,172 @@
+2024-04-15T15:21:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\genesis\lib\classes\class-genesis-requirements-views.php on line 76
+
+2024-04-15T15:23:54+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T15:39:15+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T16:44:52+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T16:50:48+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:10:57+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:11:00+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:11:05+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:19:19+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:19:24+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:19:48+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:24:55+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:24:59+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:25:01+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:25:02+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:25:02+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:25:03+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:25:03+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:25:03+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T19:25:08+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(167): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\TranslateWpmlString.php(109): WPML\ST\TranslateWpmlString->withMOLocale()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T20:30:18+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-15T21:33:02+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\revslider\admin\includes\shortcode_generator\shortcode_generator.class.php on line 8
+
+2024-04-15T21:50:27+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+

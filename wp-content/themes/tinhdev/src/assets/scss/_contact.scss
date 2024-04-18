@@ -1,0 +1,77 @@
+.section_contact {
+    background-image: url('../image/bg_contact.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    .intro-section {
+        position: relative;
+        h3 {
+            margin-bottom: 10px;
+            color: $primary;
+        }
+    
+        .contact_title_line {
+            position: relative;
+            display: inline-block;
+            width: 100px;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                background-color: $primary;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
+            
+            &::after {
+                margin-top: 3px;
+            }
+            
+            .logo-image {
+                position: relative;
+                display: block;
+                width: 25px;
+                margin-top: 3px;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                z-index: 1;
+            }
+        }
+    }
+    .address_contact{
+        .title{
+            color: $primary;
+        }
+
+        .list{
+            position: relative;
+            display: inline-block;
+            width: 100%;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                background-color: #9F9F9F;
+                bottom: 0;
+                left: 0;
+                transform: translateY(-50%);
+            }
+
+            i{
+                color: $primary;
+            }
+            
+        }
+       
+        
+    }
+}

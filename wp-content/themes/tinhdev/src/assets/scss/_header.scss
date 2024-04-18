@@ -1,0 +1,168 @@
+.site-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9000;
+}
+
+#header-bottom{
+    background-color: $primary;
+}
+
+.close-nav-menu-btn {
+    display: none;
+}
+
+.close-nav-menu-btn.active {
+    display: block;
+    z-index: 8000;
+    position: absolute;
+    top: 10%;
+}
+
+.header-menu-nav {
+    ul {
+        li {
+            padding: 1rem;
+
+            a {
+                color: $white;
+            }
+        }
+    }
+
+}
+
+header {
+
+    position: sticky;
+
+    input,
+    button {
+        outline: none;
+        border: none;
+        background: none;
+    }
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $white;
+    padding: 0.25rem 1rem;
+    border-radius: 1.25rem;
+
+    input {
+        width: 100%;
+        border: none;
+    }
+
+    button {
+        color: $primary;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .search-form {
+        position: absolute;
+        top: 100%;
+        display: none;
+        width: 100%;
+        right: 0;
+        left: 0;
+        border-radius: 0;
+
+        input {
+            border-right: 1px solid #000;
+        }
+
+        &.active {
+            display: flex;
+
+            &::before {
+                content: "";
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background: $overlay-bg;
+                z-index: -100;
+            }
+        }
+    }
+
+    .header-menu-nav {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        left: 0;
+        right: 0;
+        animation: headerNavMenuAnim .3s ease-in-out;
+    }
+
+    .header-menu-nav.active {
+        display: block;
+        z-index: 999;
+
+        &::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: $overlay-bg;
+            z-index: -100;
+        }
+
+        button {
+            color: #000;
+            z-index: inherit;
+            position: absolute;
+
+        }
+
+        ul {
+            // display: flex;
+            flex-direction: column;
+            gap: .25rem;
+            background-color: $white;
+            width: 100%;
+            top: 0;
+            padding: 2.5rem 0;
+
+            li {
+                width: 100%;
+                text-align: center;
+                background-color: #dedbdb;
+                padding: 0;
+            }
+
+            a {
+                display: block;
+                color: $primary;
+                padding: 1rem 0;
+            }
+        }
+    }
+}
+
+@keyframes headerNavMenuAnim {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

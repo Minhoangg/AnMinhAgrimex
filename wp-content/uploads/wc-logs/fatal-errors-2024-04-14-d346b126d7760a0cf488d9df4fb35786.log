@@ -1,0 +1,22 @@
+2024-04-14T18:34:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\sitepress-multilingual-cms\classes\ATE\API\class-wpml-tm-ate-api.php on line 646
+
+2024-04-14T18:53:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\PriceFilter.php on line 16
+
+2024-04-14T19:24:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\sitepress-multilingual-cms\classes\post-translation\class-wpml-pre-option-page.php on line 90
+
+2024-04-14T19:35:04+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
+2024-04-14T19:37:29+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+

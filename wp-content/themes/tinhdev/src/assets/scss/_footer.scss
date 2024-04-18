@@ -1,0 +1,56 @@
+footer {
+  background-color: $black;
+  .title_footer {
+    font-weight: 700;
+    color: $primary;
+  }
+  .hr_footer_1{
+    margin: 5px 0;
+    width: 100%;
+    background-color: $primary;
+    height: 1px;
+  }
+  .footer_contact {
+    .footer_contact_icon p {
+      color: $white;
+    }
+    i {
+        color: $icon_color;
+        margin-right: 5px;
+    }
+  }
+
+  .footer_information {
+    h5 {
+      color: $primary;
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+    i {
+        color: $icon_color;
+    }
+
+    .hr_footer {
+        width: 100%;
+        background-color: $white;
+        height: 1px;
+    }
+
+    .footer_social {
+        margin: 15px 0;
+        a 
+        {
+            text-decoration: none;
+            margin-right: 20px;
+          }  
+    }
+  }
+
+  .footer_map iframe {
+    width: 100%;
+    height: 280px;
+  }
+}
+

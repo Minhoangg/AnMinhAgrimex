@@ -1,0 +1,34 @@
+2024-04-16T15:23:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-repeater.php on line 3
+
+2024-04-16T18:37:54+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\tinhdev\src\components\BlogDefault.php on line 154
+
+2024-04-16T18:40:39+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\tinhdev\src\components\BlogDefault.php:34
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\tinhdev\functions.php(54): TinhDev\components\BlogDefault::render()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(324): home_components()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\genesis\lib\framework.php(66): do_action()
+#5 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\genesis\index.php(15): genesis()
+#6 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\template-loader.php(106): include('D:\\FPT\\Agricult...')
+#7 D:\FPT\Agriculture-website\webdemo\well-known\wp-blog-header.ph in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\tinhdev\src\components\BlogDefault.php on line 34
+
+2024-04-16T21:14:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\tinhdev\functions.php on line 32 and at least 2 expected in D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\plugin.php:612
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\themes\tinhdev\functions.php(32): remove_action()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(324): remove_functions()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-settings.php(643): do_action()
+#5 D:\FPT\Agriculture-website\webdemo\well-known\wp-config.php(97): require_once('D:\\FPT\\Agricult...')
+#6 D:\FPT\Agriculture-website\webdemo\well-known\wp-load.php(50): require_once('D:\\FPT\\Agricult...')
+#7 D:\FPT\Ag in D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\plugin.php on line 612
+
+2024-04-16T22:35:46+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Textdomain_Registry::reset() in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php:139
+Stack trace:
+#0 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(119): WPML\ST\MO\Hooks\LanguageSwitch->resetTranslationAvailabilityInformation()
+#1 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(73): WPML\ST\MO\Hooks\LanguageSwitch->changeMoObjects()
+#2 D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php(48): WPML\ST\MO\Hooks\LanguageSwitch->switchToLocale()
+#3 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(326): WPML\ST\MO\Hooks\LanguageSwitch->languageHasSwitched()
+#4 D:\FPT\Agriculture-website\webdemo\well-known\wp-includes\class-wp-hook.php(348): WP_Ho in D:\FPT\Agriculture-website\webdemo\well-known\wp-content\plugins\wpml-string-translation\classes\MO\Hooks\LanguageSwitch.php on line 139
+
