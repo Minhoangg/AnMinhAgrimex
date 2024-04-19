@@ -20,8 +20,7 @@ class Single extends Base implements BaseInterface{
 						<h1 class="">
                             <?php the_title(); ?>
 						</h1>
-						<div class="d-flex flex-wrap justify-content-end">
-							<div><?= __('Bạn đang ở:', 'tinhdev') ?>&nbsp;</div>
+						<div class="d-flex flex-wrap justify-content-start">
 							<div class="breadcrumbs text-right" typeof="BreadcrumbList" vocab="https://schema.org/">
                                 <?php if (function_exists('bcn_display')){
                                     bcn_display();

@@ -27,13 +27,13 @@ class Footer extends Base implements BaseInterface
                             </div>
                             <div class="footer_contact">
                                 <div class="footer_contact_icon">
-                                    <p><i class="ri-map-pin-fill"></i>Tòa nhà FPT Polytechnic, đường số 22, phường Thường Thạnh, Quận Cái Răng, TP.Cần Thơ</p>
+                                    <p><i class="fa-solid fa-location-dot"></i>Tòa nhà FPT Polytechnic, đường số 22, phường Thường Thạnh, Quận Cái Răng, TP.Cần Thơ</p>
                                 </div>
                                 <div class="footer_contact_icon">
-                                    <p><i class="ri-mail-fill"></i>abc@gmail.com</p>
+                                    <p><i class="fa-solid fa-envelope"></i>abc@gmail.com</p>
                                 </div>
                                 <div class="footer_contact_icon">
-                                    <p><i class="ri-phone-fill"></i>123 456 789</p>
+                                    <p><i class="fa-solid fa-phone"></i>123 456 789</p>
                                 </div>
                             </div>
                         </div>
@@ -44,28 +44,28 @@ class Footer extends Base implements BaseInterface
                                 <div class="">
                                     <h5>Danh mục</h5>
                                     <p>
-                                        <a href="#"><i class="ri-arrow-right-line"></i> Sản phẩm</a>
+                                        <a href="/cua-hang"><i class="fa-solid fa-arrow-right"></i> Sản phẩm</a>
                                     </p>
                                     <p>
-                                        <a href="#"><i class="ri-arrow-right-line"></i> Bài viết</a>
+                                        <a href="/bai-viet"><i class="fa-solid fa-arrow-right"></i> Bài viết</a>
                                     </p>
                                     <p>
-                                        <a href="#"><i class="ri-arrow-right-line"></i> Giới thiệu</a>
+                                        <a href="/gioi-thieu"><i class="fa-solid fa-arrow-right"></i> Giới thiệu</a>
                                     </p>
                                     <p>
-                                        <a href="#"><i class="ri-arrow-right-line"></i> Liên hệ</a>
+                                        <a href="#"><i class="fa-solid fa-arrow-right"></i> Liên hệ</a>
                                     </p>
                                 </div>
                                 <div class="">
                                     <h5>Thông tin</h5>
                                     <p>
-                                        <a href="#"><i class="ri-arrow-right-line"></i> Hồ sơ tập đoàn</a>
+                                        <a href="#"><i class="fa-solid fa-arrow-right"></i> Hồ sơ tập đoàn</a>
                                     </p>
                                     <p>
-                                        <a href="#"><i class="ri-arrow-right-line"></i> Dự án sản xuất</a>
+                                        <a href="#"><i class="fa-solid fa-arrow-right"></i> Dự án sản xuất</a>
                                     </p>
                                     <p>
-                                        <a href="#"><i class="ri-arrow-right-line"></i> Thị trường xuất khẩu</a>
+                                        <a href="#"><i class="fa-solid fa-arrow-right"></i> Thị trường xuất khẩu</a>
                                     </p>
                                 </div>
                             </div>
