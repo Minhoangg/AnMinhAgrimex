@@ -37,7 +37,7 @@ class BlogDefault extends Base implements BaseInterface
  <div class="container py-3 mb-3">
             <div class="d-flex justify-content-center align-items-center mb-3">
                 <div class="intro-section">
-                    <h3 class="fw-bold text-center">LIÊN HỆ</h3>
+                    <h3 class="fw-bold text-center">TIN TỨC HOẠT ĐỘNG</h3>
                     <div class="d-flex justify-content-center">
                         <div class="contact_title_line">
                             <img src="wp-content/themes/tinhdev/src/assets/images/logo_title.svg" alt="" class="logo-image">

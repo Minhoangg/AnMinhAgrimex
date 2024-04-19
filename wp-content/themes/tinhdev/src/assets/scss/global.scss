@@ -53,8 +53,8 @@
 @import "../base/layout";
 @import "../base/base";
 @import "../base/break-point";
-@import "../base/reset";
 @import "../base/variables";
+@import "../base/reset";
 
 @import "header";
 @import "footer";
@@ -64,3 +64,4 @@
 @import "custom-slick";
 @import "product";
 @import "contact";
+@import "product-single";

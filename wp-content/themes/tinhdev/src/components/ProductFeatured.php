@@ -44,7 +44,9 @@ class ProductFeatured extends Base implements BaseInterface
 
 						<div class="product-card">
 							<div class="product-card-img">
-								<img src="<?= $img ?>" alt="">
+								<a href="<?= $link ?>">
+									<img src="<?= $img ?>" alt="">
+								</a>
 							</div>
 							<div class="product-card-info">
 								<a href="<?= $link ?>" class="product-card-title text-black ">

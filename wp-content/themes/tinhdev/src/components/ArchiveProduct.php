@@ -87,7 +87,10 @@ class ArchiveProduct extends Base implements BaseInterface
 
 									<div class="products_box_item col-md-6 p-0 overflow-hidden">
 										<div class="product_img ">
-											<img src="<?= $img ?>" alt="" class="w-100">
+											<a href="<?= $link ?>">
+
+												<img src="<?= $img ?>" alt="" class="w-100">
+											</a>
 										</div>
 										<div class="product_info p-1">
 											<a href="<?= $link ?> " class="product_name fw-bold "><?= $title ?></a>
@@ -138,7 +141,9 @@ class ArchiveProduct extends Base implements BaseInterface
 								<div class="col-md-3 mb-3">
 									<div class="product-card">
 										<div class="product-card-img">
-											<img src="<?= $img ?>" alt="">
+											<a href="<?= $link ?>">
+												<img src="<?= $img ?>" alt="">
+											</a>
 										</div>
 										<div class="product-card-info">
 											<a href="<?= $link ?>" class="product-card-title text-black ">
