@@ -37,8 +37,18 @@ class AboutPage extends Base implements BaseInterface
                 </div>
                 <div class="col-md-4">
                     <div class="container-fluid p-2 introduce_list">
+                        <?php
+                        if (has_nav_menu('about_menu')) {
+                            wp_nav_menu([
+                                'theme_location' => 'about_menu',
+                                'container' => 'nav',
+                                'container_class' => 'contact-menu',
+                                'menu_class' => 'my-3',
+                            ]);
+                        }
+                        ?>
                         <div class="line">
-                            <a href="#" class="d-flex justify-content-start gap-3">
+                            <a href="http://anminhagriculture.com/ban-lanh-dao/" class="d-flex justify-content-start gap-3">
                                 = <p> Ban lãnh đạo</p>
                             </a>
                         </div>
