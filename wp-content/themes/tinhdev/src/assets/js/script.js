@@ -1,3 +1,55 @@
+// jQuery(document).ready(function ($) {
+//     $(".owl-carousel").owlCarousel({
+//         loop: true,
+//         margin: 10,
+//         autoplay: true,
+//         autoplayTimeout: 5000,
+//         autoplayHoverPause: true,
+//         dots: true,
+//         responsive: {
+//             // breakpoint from 0 up
+//             0: {
+//                 items: 1,
+//             },
+//             // breakpoint from 480 up
+//             480: {
+//                 items: 2,
+//             },
+//             // breakpoint from 768 up
+//             768: {
+//                 items: 2,
+//             },
+//             992: {
+//                 items: 3,
+//             },
+//             1200: {
+//                 items: 4,
+//             }
+//         }
+//     });
+//     $('input, textarea, select').addClass('form-control');
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let openNavMenuBtn = document.querySelector('.open-nav-menu-btn')
 let closeMenuBtn = document.querySelector('.close-nav-menu-btn')
 let navbarMenu = document.querySelector('.header-menu-nav')
@@ -18,19 +70,9 @@ window.onclick = function (event) {
     searchForm.classList.toggle('active')
   }
 };
-let openSearchBtn = document.querySelector('.open-search-btn')
-openSearchBtn.addEventListener('click', function () {
+let a = document.querySelector('.open-search-btn')
+a.addEventListener('click', function () {
   searchForm.classList.toggle('active')
-})
-let orderModal = document.getElementById('orderModal');
-let orderModalForm = orderModal.querySelector('form')
-orderModalForm.querySelector('ul').classList.add('row')
-orderModalForm.querySelector('textarea').classList.add('form-control', 'mb-3')
-orderModalForm.querySelectorAll('input').forEach(input => {
-  input.classList.add('form-control', 'mb-3')
-})
-orderModalForm.querySelectorAll('label').forEach(input => {
-  input.classList.add('form-label', 'fw-medium')
 })
 
 $(document).ready(function () {
