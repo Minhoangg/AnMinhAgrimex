@@ -22,6 +22,8 @@ class Base extends BaseAbstract{
             'footer_menu_1' => __('Footer Menu 1', 'tinhdev'),
             'footer_menu_2' => __('Footer Menu 2', 'tinhdev'),
             'language_menu' => __('Ngôn ngữ', 'tinhdev'),
+            'about_menu' => __('About Menu', 'tinhdev'),
+
         ]);
     }
 

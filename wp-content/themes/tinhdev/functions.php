@@ -81,6 +81,15 @@ function about_components()
 {
     if (is_page('gioi-thieu')) :
         AboutPage::render();
+    elseif (is_page('ban-lanh-dao')) :
+
+    elseif (is_page('danh-hieu-va-giai-thuong')) :
+
+    elseif (is_page('cau-chuyen-lich-su')) :
+
+    elseif (is_page('van-hoa-an-minh')) :
+
+
     endif;
 }
 
@@ -90,8 +99,6 @@ function contact_components()
         ContactPage::render();
     endif;
 }
-
-
 
 
 function single_components()
@@ -155,7 +162,7 @@ function footer_components()
 function mmenu_setup()
 {
     $header = get_field('header', 'option');
-?>
+    ?>
     <script>
         document.addEventListener("click", (evnt) => {
             if (evnt.target?.closest?.('a[href^="#/"]')) {
@@ -170,17 +177,17 @@ function mmenu_setup()
                     position: "bottom"
                 },
                 navbars: [{
-                        height: 2,
-                        content: [
-                            '<a target="_blank" href="tel:<?= $header['phone'] ?? '' ?>" class="fa fa-phone"></a>',
-                            '<a class="mmenu-logo" href="/"><img class="img-fluid" height="50" src="<?= $header['logo'] ?? '' ?>" alt="<?php wp_title() ?>"></a>',
-                            '<a target="_blank" href="mailto:<?= $header['email'] ?? '' ?>" class="fa fa-envelope"></a>'
-                        ]
-                    },
+                    height: 2,
+                    content: [
+                        '<a target="_blank" href="tel:<?= $header['phone'] ?? '' ?>" class="fa fa-phone"></a>',
+                        '<a class="mmenu-logo" href="/"><img class="img-fluid" height="50" src="<?= $header['logo'] ?? '' ?>" alt="<?php wp_title() ?>"></a>',
+                        '<a target="_blank" href="mailto:<?= $header['email'] ?? '' ?>" class="fa fa-envelope"></a>'
+                    ]
+                },
                     {
                         content: ["<form action='/' method='get' class='p-3 input-group mb-3'>" +
-                            "<input class='form-control' type='text' name='s' id='search' value='<?php the_search_query(); ?>' />" +
-                            "<button class='btn btn-outline-secondary'><?php echo esc_attr_x('Tìm kiếm', 'tinhdev') ?></button>" + "</form>"
+                        "<input class='form-control' type='text' name='s' id='search' value='<?php the_search_query(); ?>' />" +
+                        "<button class='btn btn-outline-secondary'><?php echo esc_attr_x('Tìm kiếm', 'tinhdev') ?></button>" + "</form>"
                         ]
                     },
                     {
@@ -222,8 +229,8 @@ function my_filter_post($data, $post, $context)
         // Loop through them all
         foreach ($data->data['categories'] as $key => $category_id) {
             // Get the actual Category Object
-            $category                    = get_category($category_id);
-            $category_name[$key]['id']   = $category_id;
+            $category = get_category($category_id);
+            $category_name[$key]['id'] = $category_id;
             $category_name[$key]['name'] = $category->name;
         }
     }
