@@ -57,7 +57,7 @@ class Header extends Base implements BaseInterface
 
                             </div>
                         </div>
-                        <div class="col d-block d-md-none text-center">
+                        <div class="col d-block d-lg-none text-center">
                             <a href="/">
                                 <img src="<?= $header['logo_mobile']['url']; ?>" alt="" width="70">
                             </a>
@@ -80,7 +80,7 @@ class Header extends Base implements BaseInterface
                                     <input type="text" placeholder="Tìm kiếm" name="search" id="search-input" class="sssss">
                                     <button type="submit" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
                                 </form> -->
-                                <button class="open-search-btn text-white py-3 d-md-none d-block"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button class="open-search-btn text-white py-3 d-lg-none d-block"><i class="fa-solid fa-magnifying-glass"></i></button>
                                 <div class=" d-block d-md-none">
                                     <img src="./assets/images/vn-flag.svg" alt="" width="50" class="me-1">
                                     <img src="./assets/images/en-flag.svg" alt="" width="50">

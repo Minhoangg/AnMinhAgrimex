@@ -65,92 +65,19 @@ closeMenuBtn.addEventListener('click', function (e) {
 window.onclick = function (event) {
   if (event.target == navbarMenu) {
     navbarMenu.classList.toggle('active')
+    closeMenuBtn.classList.toggle('active')
   }
   if (event.target == searchForm) {
     searchForm.classList.toggle('active')
   }
 };
-let a = document.querySelector('.open-search-btn')
-a.addEventListener('click', function () {
+let openSearchBtn = document.querySelector('.open-search-btn')
+openSearchBtn.addEventListener('click', function () {
   searchForm.classList.toggle('active')
 })
 
 $(document).ready(function () {
-  $('.product-slide').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    autoplay: false,
-    autoplaySpeed: 2000,
-    slidesToShow: 5,
-    slidesToScroll: 2,
-    arrows: true,
-    nextArrow: '<button type="button" class="custom-next"><i class="fa-solid fa-angle-right"></i></button>',
-    prevArrow: '<button type="button" class="custom-prev"><i class="fa-solid fa-angle-left"></i></button>',
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
-  $('.product-slide-lien-quan').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    autoplay: false,
-    autoplaySpeed: 2000,
-    slidesToShow: 5,
-    slidesToScroll: 2,
-    arrows: true,
-    nextArrow: '<button type="button" class="custom-next"><i class="fa-solid fa-angle-right"></i></button>',
-    prevArrow: '<button type="button" class="custom-prev"><i class="fa-solid fa-angle-left"></i></button>',
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
-  $('.my-slick').slick({
+  $('.slick').slick({
     dots: true,
     infinite: false,
     speed: 300,
