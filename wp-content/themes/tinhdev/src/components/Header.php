@@ -59,7 +59,7 @@ class Header extends Base implements BaseInterface
                         </div>
                         <div class="col d-block d-md-none text-center">
                             <a href="/">
-                                <img src="<?= $header['logo_mobile']; ?>" alt="" width="100">
+                                <img src="<?= $header['logo_mobile']['url']; ?>" alt="" width="70">
                             </a>
                         </div>
                         <div class="col">

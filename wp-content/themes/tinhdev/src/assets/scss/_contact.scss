@@ -100,18 +100,30 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-
       }
 
     }
     .gform_footer{
       input{
         background-color: $primary;
-        padding: 6px 12px;
+        padding: 10px 25px;
         border: none;
         border-radius: 10px;
+        color:#fff;
       }
     }
   }
 }
 
+@media (max-width: 768px) {
+  .contact-custom-form_wrapper {
+    .contact-custom-form {
+      .gform_body {
+        ul {
+          width: 100%; 
+          display: block; 
+        }
+      }
+    }
+  }
+}
