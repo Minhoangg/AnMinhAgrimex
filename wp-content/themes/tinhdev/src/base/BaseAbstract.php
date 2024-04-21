@@ -25,16 +25,12 @@ abstract class BaseAbstract{
      */
     public function enqueueStyle(){
         wp_enqueue_style('global', self::$template_directory_uri . '/scss/global.css');
-        wp_enqueue_style('mmenu-css', 'https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.1.6/mmenu.min.css');
     }
 
     /**
      * @return void
      */
     public function enqueueScript(){
-        wp_enqueue_script('mmenu-js',
-            'https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.1.6/mmenu.js', ['jquery'],
-            1.1, TRUE);
         wp_enqueue_script('jquery-3',
             'https://code.jquery.com/jquery-3.7.1.min.js', ['jquery'],
             1.1, TRUE);

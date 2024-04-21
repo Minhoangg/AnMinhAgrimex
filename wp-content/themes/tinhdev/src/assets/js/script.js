@@ -84,8 +84,8 @@ $(document).ready(function () {
     slidesToShow: 5,
     slidesToScroll: 4,
     arrows: true,
-    nextArrow: '<button type="button" class="custom-next"><i class="ri-arrow-right-s-line"></i></button>',
-    prevArrow: '<button type="button" class="custom-prev"><i class="ri-arrow-left-s-line"></i></button>',
+    nextArrow: '<button type="button" class="custom-next"><i class="fa-solid fa-chevron-right"></i></button>',
+    prevArrow: '<button type="button" class="custom-prev"><i class="fa-solid fa-chevron-left"></i></button>',
     responsive: [
       {
         breakpoint: 1024,

@@ -30,7 +30,7 @@ class ProductFeatured extends Base implements BaseInterface
 						</div>
 					</div>
 				</div>
-				<div class="product-slide">
+				<div class="slick product-slide">
 					<?php while ($list_product->have_posts()) : global $product;
 						$list_product->the_post();
 						setup_postdata($product);

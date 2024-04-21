@@ -45,7 +45,7 @@ class SingleProduct extends Base implements BaseInterface
 				<?php $list_product = new WP_Query($args);
 				if ($list_product->have_posts()) : ?>
 					<h2 class="title-dancing text-center">Sản phẩm liên quan</h2>
-					<div class="product-slide-lien-quan">
+					<div class="slick">
 						<?php while ($list_product->have_posts()) : $list_product->the_post();
 							$ID    = get_the_ID();
 							$img   = get_the_post_thumbnail_url($ID, 'full');

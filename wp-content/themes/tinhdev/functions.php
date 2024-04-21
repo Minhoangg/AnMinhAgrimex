@@ -159,47 +159,6 @@ function footer_components()
 }
 
 
-function mmenu_setup()
-{
-    $header = get_field('header', 'option');
-    ?>
-    <script>
-        document.addEventListener("click", (evnt) => {
-            if (evnt.target?.closest?.('a[href^="#/"]')) {
-                evnt.preventDefault();
-                alert("Thank you for clicking, but that's a demo link.");
-            }
-        });
-        document.addEventListener('DOMContentLoaded', () => {
-            new Mmenu("#menu-header-mobile", {
-                theme: "white",
-                offCanvas: {
-                    position: "bottom"
-                },
-                navbars: [{
-                    height: 2,
-                    content: [
-                        '<a target="_blank" href="tel:<?= $header['phone'] ?? '' ?>" class="fa fa-phone"></a>',
-                        '<a class="mmenu-logo" href="/"><img class="img-fluid" height="50" src="<?= $header['logo'] ?? '' ?>" alt="<?php wp_title() ?>"></a>',
-                        '<a target="_blank" href="mailto:<?= $header['email'] ?? '' ?>" class="fa fa-envelope"></a>'
-                    ]
-                },
-                    {
-                        content: ["<form action='/' method='get' class='p-3 input-group mb-3'>" +
-                        "<input class='form-control' type='text' name='s' id='search' value='<?php the_search_query(); ?>' />" +
-                        "<button class='btn btn-outline-secondary'><?php echo esc_attr_x('Tìm kiếm', 'tinhdev') ?></button>" + "</form>"
-                        ]
-                    },
-                    {
-                        content: ["prev", "title"]
-                    }
-                ]
-            }, {});
-        });
-    </script>
-<?php }
-
-add_action('wp_footer', 'mmenu_setup');
 
 add_filter('get_the_archive_title', function ($title) {
     if (is_category()) {
