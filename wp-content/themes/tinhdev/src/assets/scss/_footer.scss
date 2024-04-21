@@ -53,4 +53,21 @@ footer {
     height: 280px;
   }
 }
+.footer-menu-category{
+
+  li {
+    margin-bottom: 1rem;
+    position: relative;
+    a{
+      margin-left: 1.25rem;
+    }
+    &::before{
+      content: "\f061";
+      font-family: "Font Awesome 6 Free";
+      position: absolute;
+      color: $white;
+      color:$icon_color ;
+    }
+  }
+}
 

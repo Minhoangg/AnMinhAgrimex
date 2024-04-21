@@ -43,18 +43,15 @@ class Footer extends Base implements BaseInterface
                             <div class="d-flex justify-content-between">
                                 <div class="">
                                     <h5>Danh mục</h5>
-                                    <p>
-                                        <a href="/cua-hang"><i class="fa-solid fa-arrow-right"></i> Sản phẩm</a>
-                                    </p>
-                                    <p>
-                                        <a href="/bai-viet"><i class="fa-solid fa-arrow-right"></i> Bài viết</a>
-                                    </p>
-                                    <p>
-                                        <a href="/gioi-thieu"><i class="fa-solid fa-arrow-right"></i> Giới thiệu</a>
-                                    </p>
-                                    <p>
-                                        <a href="#"><i class="fa-solid fa-arrow-right"></i> Liên hệ</a>
-                                    </p>
+                                    <?php
+                                    if (has_nav_menu('footer_menu_2')) {
+                                        wp_nav_menu([
+                                            'theme_location'  => 'footer_menu_2',
+                                            'container'       => 'nav',
+                                            'container_class' => 'footer-menu-category',
+                                        ]);
+                                    }
+                                    ?>
                                 </div>
                                 <div class="">
                                     <h5>Thông tin</h5>
@@ -71,18 +68,12 @@ class Footer extends Base implements BaseInterface
                             </div>
                             <div class="hr_footer"></div>
                             <div class="footer_social d-flex justify-content-start">
-                                <a href="#">
-                                    <img src="./assets/image/Facebook - Original.svg" alt="">
-                                </a>
-                                <a href="#">
-                                    <img src="./assets/image/Vector.svg" alt="">
-                                </a>
-                                <a href="#">
-                                    <img src="./assets/image/Instagram - Original.svg" alt="">
-                                </a>
-                                <a href="#">
-                                    <img src="./assets/image/Google - Original.svg" alt="">
-                                </a>
+                                <?php $footer_social = get_field('footer_social', 'option') ?>
+                                <?php foreach ($footer_social as $item) : ?>
+                                    <a href="#">
+                                        <img src="<?= $item['url'] ?>" alt="">
+                                    </a>
+                                <?php endforeach; ?>
                             </div>
                         </div>
                     </div>
@@ -98,7 +89,7 @@ class Footer extends Base implements BaseInterface
 
             </div>
             <div class="text-white text-center border-top border-white py-2">
-                
+
                 <div class="container">Copyright © 2024 AnMinh, All Rights Reserved.</div>
             </div>
         </footer>
