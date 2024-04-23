@@ -5,7 +5,7 @@ namespace TinhDev\components;
 use TinhDev\base\Base;
 use TinhDev\base\BaseInterface;
 
-class AboutPage extends Base implements BaseInterface
+class AboutHistory extends Base implements BaseInterface
 {
 
     /**
@@ -72,25 +72,13 @@ class AboutPage extends Base implements BaseInterface
                 <div class="col-md-8">
                     <div class="introduce_information">
                         <div class="list">
-                            <h5>TẬP ĐOÀN NÔNG NGHIỆP TRI THỨC</h5>
+                            <h5>CÂU CHUYỆN LỊCH SỬ CỦA AnMinhAgrimex</h5>
+
                             <p>
-                                <?php $thongtin = get_field('gioi-thieu', 'option');
-                                echo ($thongtin[0]['thong_tin_tap_doan']);
-                                ?>
-                            </p>
-                        </div>
-                        <div class="list">
-                            <h5>SỨ MỆNH</h5>
-                            <p>
-                                <?php echo ($thongtin[0]['su-menh']); ?>
-                            </p>
-                        </div>
-                        <div class="list">
-                            <h5>TẦM NHÌN</h5>
-                            <p>
-                                <?php echo ($thongtin[0]['tam-nhin']); ?>
-                            </p>
-                        </div>
+                            <?php $thongtin = get_field('gioi-thieu', 'option');
+                                echo ($thongtin[0]['cau_chuyen_lich_su']);
+                                ?>  </div>
+
                     </div>
                 </div>
             </div>

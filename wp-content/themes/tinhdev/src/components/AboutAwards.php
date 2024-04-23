@@ -5,7 +5,7 @@ namespace TinhDev\components;
 use TinhDev\base\Base;
 use TinhDev\base\BaseInterface;
 
-class AboutPage extends Base implements BaseInterface
+class AboutAwards extends Base implements BaseInterface
 {
 
     /**
@@ -72,25 +72,17 @@ class AboutPage extends Base implements BaseInterface
                 <div class="col-md-8">
                     <div class="introduce_information">
                         <div class="list">
-                            <h5>TẬP ĐOÀN NÔNG NGHIỆP TRI THỨC</h5>
+                            <h5>DANH HIỆU VÀ GIẢI THƯỞNG CỦA AnMinhAgrimex</h5>
                             <p>
-                                <?php $thongtin = get_field('gioi-thieu', 'option');
-                                echo ($thongtin[0]['thong_tin_tap_doan']);
+                                AnMinhagrimex là một tên tuổi uy tín trong cộng đồng nông nghiệp, với cam kết mang lại sản phẩm chất lượng và dịch vụ xuất sắc cho các nhà nông và người làm trong ngành. Với sứ mệnh nâng cao năng suất và thu nhập cho cộng đồng nông dân, AnMinhagrimex không ngừng đổi mới và áp dụng công nghệ tiên tiến để tạo ra những giải pháp hiệu quả.
+                            </p>
+                            <p>
+                            <?php $thongtin = get_field('gioi-thieu', 'option');
+                                echo ($thongtin[0]['danh_hieu_va_giai_thuong']);
                                 ?>
-                            </p>
+                            </p>   
                         </div>
-                        <div class="list">
-                            <h5>SỨ MỆNH</h5>
-                            <p>
-                                <?php echo ($thongtin[0]['su-menh']); ?>
-                            </p>
-                        </div>
-                        <div class="list">
-                            <h5>TẦM NHÌN</h5>
-                            <p>
-                                <?php echo ($thongtin[0]['tam-nhin']); ?>
-                            </p>
-                        </div>
+
                     </div>
                 </div>
             </div>

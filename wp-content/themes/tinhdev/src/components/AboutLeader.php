@@ -5,7 +5,7 @@ namespace TinhDev\components;
 use TinhDev\base\Base;
 use TinhDev\base\BaseInterface;
 
-class AboutPage extends Base implements BaseInterface
+class AboutLeader extends Base implements BaseInterface
 {
 
     /**
@@ -13,7 +13,7 @@ class AboutPage extends Base implements BaseInterface
      */
     public static function render()
     {
-?>
+        ?>
 
 
         <section class="container section_introduce pt-3">
@@ -29,7 +29,7 @@ class AboutPage extends Base implements BaseInterface
                             <h3 class="fw-bold">GIỚI THIỆU</h3>
                             <div class="d-flex justify-content-center">
                                 <div class="contact_title_line">
-                                    <img src="<?php echo get_stylesheet_directory_uri() . '/src/assets/images/logo_title.svg'; ?>" alt="" class="logo-image">
+                                <img src="<?php echo get_stylesheet_directory_uri() . '/src/assets/images/logo_title.svg'; ?>" alt="" class="logo-image">
                                 </div>
                             </div>
                         </div>
@@ -72,30 +72,19 @@ class AboutPage extends Base implements BaseInterface
                 <div class="col-md-8">
                     <div class="introduce_information">
                         <div class="list">
-                            <h5>TẬP ĐOÀN NÔNG NGHIỆP TRI THỨC</h5>
+                            <h5>BAN LÃNH ĐẠO CỦA AnMinhAgrimex</h5>
                             <p>
-                                <?php $thongtin = get_field('gioi-thieu', 'option');
-                                echo ($thongtin[0]['thong_tin_tap_doan']);
+                            <?php $thongtin = get_field('gioi-thieu', 'option');
+                                echo ($thongtin[0]['ban_lanh_dao']);
                                 ?>
                             </p>
                         </div>
-                        <div class="list">
-                            <h5>SỨ MỆNH</h5>
-                            <p>
-                                <?php echo ($thongtin[0]['su-menh']); ?>
-                            </p>
-                        </div>
-                        <div class="list">
-                            <h5>TẦM NHÌN</h5>
-                            <p>
-                                <?php echo ($thongtin[0]['tam-nhin']); ?>
-                            </p>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
 
-<?php
+        <?php
     }
 }
