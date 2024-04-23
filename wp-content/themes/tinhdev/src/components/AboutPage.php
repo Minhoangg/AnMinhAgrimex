@@ -29,7 +29,7 @@ class AboutPage extends Base implements BaseInterface
                             <h3 class="fw-bold">GIỚI THIỆU</h3>
                             <div class="d-flex justify-content-center">
                                 <div class="contact_title_line">
-                                    <img src=".././assets/images/logo_title.svg" alt="" class="logo-image">
+                                    <img src="<?php echo get_stylesheet_directory_uri() . '/src/assets/images/logo_title.svg'; ?>" alt="" class="logo-image">
                                 </div>
                             </div>
                         </div>
@@ -53,12 +53,12 @@ class AboutPage extends Base implements BaseInterface
                             </a>
                         </div>
                         <div class="line">
-                            <a href="" class="d-flex justify-content-start gap-3">
+                            <a href="http://anminhagriculture.com/danh-hieu-va-giai-thuong/" class="d-flex justify-content-start gap-3">
                                 = <p> Danh hiệu và giải thưởng</p>
                             </a>
                         </div>
                         <div class="line">
-                            <a href="#" class="d-flex justify-content-start gap-3">
+                            <a href="http://anminhagriculture.com/van-hoa-an-minh/" class="d-flex justify-content-start gap-3">
                                 = <p> Văn hóa An Minh</p>
                             </a>
                         </div>

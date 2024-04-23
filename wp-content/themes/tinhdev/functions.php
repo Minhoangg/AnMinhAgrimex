@@ -20,6 +20,11 @@ use TinhDev\components\ProductFeatured;
 use TinhDev\components\VideoComment;
 use TinhDev\components\BlogPage;
 use TinhDev\components\AboutPage;
+use TinhDev\components\AboutLeader;
+use TinhDev\components\AboutAwards;
+use TinhDev\components\AboutHistory;
+use TinhDev\components\AboutCulture;
+
 use TinhDev\components\ContactPage;
 
 $base = new Base();
@@ -82,12 +87,13 @@ function about_components()
     if (is_page('gioi-thieu')) :
         AboutPage::render();
     elseif (is_page('ban-lanh-dao')) :
-
+        AboutLeader::render();
     elseif (is_page('danh-hieu-va-giai-thuong')) :
-
+        AboutAwards::render();
     elseif (is_page('cau-chuyen-lich-su')) :
-
+        AboutHistory::render();
     elseif (is_page('van-hoa-an-minh')) :
+        AboutCulture::render();
 
 
     endif;
