@@ -20,6 +20,7 @@ use TinhDev\components\ProductFeatured;
 use TinhDev\components\VideoComment;
 use TinhDev\components\BlogPage;
 use TinhDev\components\AboutPage;
+use TinhDev\components\AwardSection;
 use TinhDev\components\ContactPage;
 
 $base = new Base();
@@ -67,6 +68,7 @@ function home_components()
 
         BlogDefault::render();
         ProductFeatured::render();
+        AwardSection::render();
     endif;
 }
 
